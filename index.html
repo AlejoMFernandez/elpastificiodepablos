@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>El Pastificio de Pablos · Cantina italiana en Villa Devoto</title>
+<meta name="description" content="Una cantina italiana poco ortodoxa en Villa Devoto: la carta, el menú del mediodía, las catas y las reservas en un solo lugar.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="El Pastificio de Pablos">
+<meta property="og:url" content="https://elpastificiodepablos.vercel.app/">
+<meta property="og:title" content="El Pastificio de Pablos · Cantina italiana en Devoto">
+<meta property="og:description" content="La carta, el menú del mediodía y las catas en un solo lugar. Fernández de Enciso 3963.">
+<meta property="og:image" content="https://elpastificiodepablos.vercel.app/img/og.jpg?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="El Pastificio de Pablos, una cantina italiana poco ortodoxa en Villa Devoto">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://elpastificiodepablos.vercel.app/img/og.jpg?v=1">
+<meta name="theme-color" content="#f7d64a">
+<link rel="icon" href="img/flor.svg" type="image/svg+xml">
+<script>
+  (function () {
+    var d = document.documentElement; d.classList.add('js');
+    var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduce) d.classList.add('con-intro');
+  })();
+</script>
+<link rel="preload" href="fonts/fraunces-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/logo-texto.svg" as="image">
+<link rel="stylesheet" href="css/fuentes.css?v=1">
+<link rel="stylesheet" href="kit/kit.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro__logo">
+    <img class="intro__texto" src="img/logo-texto.svg" alt="" width="500" height="190">
+    <img class="intro__flor" src="img/flor.svg" alt="" width="60" height="58">
+  </div>
+  <span class="intro__borde"></span>
+</div>
+
+<header class="barra" id="barra">
+  <div class="barra__in">
+    <a class="barra__logo" href="#inicio" aria-label="El Pastificio de Pablos, inicio"><img src="img/logo.svg" alt="El Pastificio de Pablos" width="500" height="190"></a>
+    <nav class="barra__nav" aria-label="Secciones">
+      <a href="#ahora">Qué hay ahora</a>
+      <a href="#menus">Menús</a>
+      <a href="#carta">La carta</a>
+      <a href="#catas">Catas y pop-ups</a>
+      <a href="#llegar">Cómo llegar</a>
+    </nav>
+    <a class="btn btn--tinta barra__cta" href="https://elpastificiodepablos.meitre.com" target="_blank" rel="noopener"><span>Reservá<span class="solo-desk"> tu mesa</span></span></a>
+    <button class="barra__menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menú">
+    <a href="#ahora">Qué hay ahora</a>
+    <a href="#menus">Menús de la semana</a>
+    <a href="#familia">La familia</a>
+    <a href="#carta">La carta</a>
+    <a href="#catas">Catas y pop-ups</a>
+    <a href="#salon">El salón</a>
+    <a href="#llegar">Cómo llegar</a>
+  </nav>
+  <a class="btn btn--verde btn--grande" href="https://elpastificiodepablos.meitre.com" target="_blank" rel="noopener">Reservá tu mesa</a>
+</div>
+
+<main id="inicio">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-t">
+    <div class="hero__in">
+      <div class="hero__texto">
+        <p class="hero__script" data-h="1">cantina italiana en Villa Devoto</p>
+        <h1 class="hero__t" id="hero-t"><span class="linea" data-h="2"><span>Vení al Pasti</span></span> <span class="linea" data-h="3"><span>que tutto pasa</span></span></h1>
+        <p class="hero__sub" data-h="4">Pastas, pizzas, sándwiches y postres <b>inspirados en memorias familiares.</b></p>
+        <p class="estado" data-h="5" data-estado><span class="estado__punto"></span><span data-estado-txt>Abrimos de miércoles a domingo de 10:00 a 00:00 hs</span></p>
+        <div class="hero__btns" data-h="6">
+          <a class="btn btn--verde btn--grande" href="https://elpastificiodepablos.meitre.com" target="_blank" rel="noopener">Reservá tu mesa</a>
+          <a class="btn btn--blanco btn--grande" href="#carta">Ver la carta</a>
+        </div>
+      </div>
+      <div class="hero__foto">
+        <div class="arco" data-h="3">
+          <picture>
+            <source media="(min-width: 900px)" srcset="img/salon-arco-700.webp 700w, img/salon-arco-1100.webp 1100w" sizes="(min-width: 1300px) 520px, 40vw">
+            <img src="img/milanesa-640.webp" alt="Milanesa de lomo napolitana con pesto y papitas caccio e pepe" width="648" height="783" fetchpriority="high">
+          </picture>
+        </div>
+        <figure class="polaroid hero__polaroid" data-h="5">
+          <img src="img/gnocchi-480.webp" alt="Gnocchi soufflé de espinaca gratinados" width="480" height="600">
+          <figcaption>gnocchi<span class="solo-desk"> soufflé</span></figcaption>
+        </figure>
+        <div class="sello" data-h="6" aria-hidden="true"><span>Aprobado<br>por la<br>nonna</span></div>
+      </div>
+    </div>
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta__pista">
+        <span>Pastas</span><i>✿</i><span>Pizzas</span><i>✿</i><span>Sándwiches</span><i>✿</i><span>Postres</span><i>✿</i><span>Vinos por copa</span><i>✿</i><span>Catas en el subsuelo</span><i>✿</i><span>Somos la historia del barrio</span><i>✿</i>
+        <span>Pastas</span><i>✿</i><span>Pizzas</span><i>✿</i><span>Sándwiches</span><i>✿</i><span>Postres</span><i>✿</i><span>Vinos por copa</span><i>✿</i><span>Catas en el subsuelo</span><i>✿</i><span>Somos la historia del barrio</span><i>✿</i>
+      </div>
+    </div>
+  </section>
+
+  <!-- EL RELOJ -->
+  <section class="sec ahora" id="ahora" aria-labelledby="ahora-t">
+    <div class="sec__in">
+      <div class="sec__head">
+        <p class="kicker rev">el reloj del Pasti</p>
+        <h2 class="sec__t rev" id="ahora-t">¿Qué hay ahora en El Pasti?</h2>
+        <p class="sec__sub rev" data-reloj-frase>Desayunos, almuerzos, meriendas y cenas: cada hora tiene lo suyo.</p>
+      </div>
+      <div class="franjas fila" data-franjas>
+        <article class="franja rev" data-franja="desayuno">
+          <div class="franja__foto"><img src="img/salon-2-600.webp" alt="El salón de El Pasti con luz de la mañana" width="600" height="746" loading="lazy"></div>
+          <div class="franja__txt">
+            <span class="franja__ahora">● ahora</span>
+            <h3>Desayuno</h3><p class="franja__hs">10:00 a 12:00 hs</p>
+            <ul><li>Cornetto con queso crema</li><li>Tostada &amp; palta</li><li>French toast</li></ul>
+          </div>
+        </article>
+        <article class="franja rev" data-franja="almuerzo">
+          <div class="franja__foto"><img src="img/milanesa-640.webp" alt="Milanesa de lomo napolitana" width="640" height="773" loading="lazy"></div>
+          <div class="franja__txt">
+            <span class="franja__ahora">● ahora</span>
+            <h3>Almuerzo</h3><p class="franja__hs">12:00 a 16:00 hs</p>
+            <ul><li data-solo-mediodia>Menú mediodía (mié a vie)</li><li>Tagliatelle de Amalia</li><li>Milanesa de lomo</li></ul>
+          </div>
+        </article>
+        <article class="franja rev" data-franja="merienda">
+          <div class="franja__foto"><img src="img/salon-ancho-900.webp" alt="Mesas del salón con sol de la tarde" width="900" height="831" loading="lazy"></div>
+          <div class="franja__txt">
+            <span class="franja__ahora">● ahora</span>
+            <h3>Merienda</h3><p class="franja__hs">16:00 a 20:00 hs</p>
+            <ul><li>Zeppole de pastelera</li><li>Bombolini</li><li>Cookie pistacho</li></ul>
+          </div>
+        </article>
+        <article class="franja rev" data-franja="cena">
+          <div class="franja__foto"><img src="img/gnocchi-480.webp" alt="Gnocchi soufflé gratinados" width="480" height="600" loading="lazy"></div>
+          <div class="franja__txt">
+            <span class="franja__ahora">● ahora</span>
+            <h3>Cena</h3><p class="franja__hs">20:00 a 00:00 hs</p>
+            <ul><li data-solo-merezco>Menú me lo merezco</li><li>Gnocchi soufflé</li><li>Vinos por copa</li></ul>
+          </div>
+        </article>
+      </div>
+      <p class="ahora__nota rev" data-reloj-nota>Los lunes abrimos de 16:00 a 00:00 hs y los martes descansamos.</p>
+    </div>
+  </section>
+
+  <!-- MENÚS DE LA SEMANA -->
+  <section class="sec menus" id="menus" aria-labelledby="menus-t">
+    <div class="sec__in">
+      <div class="sec__head">
+        <p class="kicker rev">para los que vienen seguido</p>
+        <h2 class="sec__t rev" id="menus-t">Menús de la semana</h2>
+      </div>
+      <div class="placas">
+        <article class="placa placa--amarilla rev" data-placa="mediodia">
+          <span class="placa__hoy">Hoy va</span>
+          <p class="placa__dias">miércoles · jueves · viernes</p>
+          <h3 class="placa__t">Menú mediodía</h3>
+          <p class="placa__lbl">Plato del día</p>
+          <p class="placa__plato" data-kit-destacado="mediodia.plato">Bife con papas fritas y huevo frito</p>
+          <ul class="placa__lista">
+            <li>o la burga del Pasti, o una César</li>
+            <li>+ bebida sin alcohol o copa de vino</li>
+          </ul>
+          <p class="placa__nota" data-kit-destacado="mediodia.nota">Con postre y café, si te da el cuerpo.</p>
+          <p class="placa__pie">De 12:00 a 16:00 hs · precio del día en el local</p>
+        </article>
+        <article class="placa placa--verde rev" data-placa="merezco">
+          <span class="placa__hoy">Hoy va</span>
+          <p class="placa__dias">cenas de lunes · miércoles · jueves · domingo</p>
+          <h3 class="placa__t">Menú me lo merezco</h3>
+          <p class="placa__lbl">La pasta de la semana</p>
+          <p class="placa__plato" data-kit-destacado="merezco.pasta">Raviol ragú bianco</p>
+          <ul class="placa__precios" data-merezco>
+            <li><span>Pasta + agua libre</span><b>$24.000</b></li>
+            <li><span>+ copa de vino</span><b>$28.000</b></li>
+            <li><span>+ postre y café</span><b>$28.000</b></li>
+          </ul>
+          <p class="placa__pie">De 20:00 a 00:00 hs</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA FAMILIA -->
+  <section class="sec familia" id="familia" aria-labelledby="familia-t">
+    <div class="sec__in">
+      <div class="sec__head">
+        <p class="kicker rev">le mani sagge sanno meglio</p>
+        <h2 class="sec__t rev" id="familia-t">La familia en la carta</h2>
+        <p class="sec__sub rev">Nuestra carta es una suerte de álbum familiar que pasó de manos sabias en manos sabias. Dalas vuelta.</p>
+      </div>
+      <div class="album fila" data-album>
+        <div class="foto-fam rev" data-fam="ajies-dominga" data-nombre="Dominga" style="--r:-4deg">
+          <span class="foto-fam__cara foto-fam__frente">
+            <span class="foto-fam__papel"><span class="foto-fam__nombre">Dominga</span><span class="foto-fam__sub">receta de familia</span><img class="foto-fam__flor" src="img/flor.svg" alt="" width="60" height="58"></span>
+            <span class="foto-fam__pie">Dominga</span>
+          </span>
+          <span class="foto-fam__cara foto-fam__dorso" data-dorso></span>
+        </div>
+        <div class="foto-fam rev" data-fam="tagliatelle-amalia" data-nombre="Amalia" style="--r:3deg">
+          <span class="foto-fam__cara foto-fam__frente">
+            <img class="foto-fam__img" src="img/amalia-archivo-600.webp" alt="Amalia en una foto de archivo" width="600" height="330" loading="lazy">
+            <span class="foto-fam__pie">Amalia</span>
+          </span>
+          <span class="foto-fam__cara foto-fam__dorso" data-dorso></span>
+        </div>
+        <div class="foto-fam rev" data-fam="campanelle-carmelo" data-nombre="Carmelo" style="--r:-2deg">
+          <span class="foto-fam__cara foto-fam__frente">
+            <span class="foto-fam__papel foto-fam__papel--verde"><span class="foto-fam__nombre">Carmelo</span><span class="foto-fam__sub">receta de familia</span><img class="foto-fam__flor" src="img/flor.svg" alt="" width="60" height="58"></span>
+            <span class="foto-fam__pie">Carmelo</span>
+          </span>
+          <span class="foto-fam__cara foto-fam__dorso" data-dorso></span>
+        </div>
+        <div class="foto-fam rev" data-fam="tiramisu-marcela" data-nombre="Marcela" style="--r:5deg">
+          <span class="foto-fam__cara foto-fam__frente">
+            <span class="foto-fam__papel foto-fam__papel--amarillo"><span class="foto-fam__nombre">Marcela</span><span class="foto-fam__sub">receta de familia</span><img class="foto-fam__flor" src="img/flor.svg" alt="" width="60" height="58"></span>
+            <span class="foto-fam__pie">Marcela</span>
+          </span>
+          <span class="foto-fam__cara foto-fam__dorso" data-dorso></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA CARTA -->
+  <section class="sec carta" id="carta" aria-labelledby="carta-t">
+    <div class="sec__in">
+      <div class="sec__head sec__head--fila">
+        <div>
+          <p class="kicker rev">nuestra carta es una suerte de álbum familiar</p>
+          <h2 class="sec__t rev" id="carta-t">La carta</h2>
+        </div>
+        <a class="carta__qr rev" href="carta/" target="_blank" rel="noopener">
+          <span class="carta__qr-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7"/><rect x="13.5" y="3.5" width="7" height="7"/><rect x="3.5" y="13.5" width="7" height="7"/><path d="M14 14h2.5v2.5H14zM18 18h2.5v2.5H18zM18 14h2.5M14 18v2.5"/></svg></span>
+          <span>La misma carta vive en <b>/carta</b>, con su QR para las mesas</span>
+        </a>
+      </div>
+      <div class="carta__grid">
+        <div class="carta__kit" data-kit="carta" data-kit-pedir="false" data-kit-categoria="pastas" aria-label="Carta"></div>
+        <aside class="carta__foto" aria-hidden="true">
+          <figure class="polaroid polaroid--grande" data-carta-foto>
+            <img src="img/tagliatelle-amalia-480.webp" alt="" width="480" height="600" data-carta-img>
+            <figcaption data-carta-cap>el pesto de Amalia</figcaption>
+          </figure>
+          <p class="carta__ayuda">Pasá el mouse por los platos con <span class="punto"></span> y aparece su foto.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATAS -->
+  <section class="sec catas" id="catas" aria-labelledby="catas-t">
+    <div class="sec__in">
+      <div class="sec__head sec__head--fila">
+        <div>
+          <p class="kicker kicker--claro rev">en el subsuelo</p>
+          <h2 class="sec__t rev" id="catas-t">Catas y pop-ups</h2>
+          <p class="sec__sub rev">Bodegas invitadas, menús pensados para cada copa y noches que inventamos porque sí. Guardate un lugar antes de que se llenen las copas.</p>
+        </div>
+        <img class="catas__vinos rev" src="img/vinos-600.webp" alt="Dos botellas de vino natural de la carta" width="600" height="853" loading="lazy">
+      </div>
+      <div class="tickets fila" data-tickets>
+        <p class="tickets__cargando">Cargando la agenda…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EL SALÓN -->
+  <section class="sec salon" id="salon" aria-labelledby="salon-t">
+    <div class="sec__in">
+      <div class="sec__head">
+        <p class="kicker rev">Fernández de Enciso 3963</p>
+        <h2 class="sec__t rev" id="salon-t">Somos la historia del barrio</h2>
+        <p class="sec__sub rev">Paredes descascaradas, fotos de la familia, manteles a cuadros y un subsuelo para las noches largas.</p>
+      </div>
+      <div class="mosaico fila" data-mosaico>
+        <figure class="polaroid m1 rev" style="--r:-3deg"><img src="img/salon-ancho-900.webp" alt="El salón con sol de la tarde" width="900" height="831" loading="lazy"><figcaption>la tarde en el salón</figcaption></figure>
+        <figure class="polaroid m2 rev" style="--r:4deg"><img src="img/mozo-700.webp" alt="Mozo con la remera de El Pastificio llevando tres platos de pasta" width="700" height="788" loading="lazy"><figcaption>tres pastas para la 4</figcaption></figure>
+        <figure class="polaroid m3 rev" style="--r:-5deg"><img src="img/nonna-aprobado-700.webp" alt="Placa Aprobado por la nonna" width="700" height="875" loading="lazy"><figcaption>aprobado por la nonna</figcaption></figure>
+        <figure class="polaroid m4 rev" style="--r:2deg"><img src="img/carbonara-640.webp" alt="Carbonara con guanciale y parmesano" width="640" height="288" loading="lazy"><figcaption>dios bendiga la carbonara</figcaption></figure>
+        <figure class="polaroid m5 rev" style="--r:-2deg"><img src="img/salon-pared-700.webp" alt="Pared descascarada con fotos de la familia" width="700" height="368" loading="lazy"><figcaption>las fotos de la familia</figcaption></figure>
+        <figure class="polaroid m6 rev" style="--r:5deg"><img src="img/popup-burgas-700.webp" alt="Las cocineras del pop-up de burgas comiendo hamburguesas" width="700" height="933" loading="lazy"><figcaption>pop-up de burgas</figcaption></figure>
+        <figure class="polaroid m7 rev" style="--r:-4deg"><img src="img/margarita-640.webp" alt="Pizza margarita en la pala" width="640" height="487" loading="lazy"><figcaption>como la de Nápoles</figcaption></figure>
+        <figure class="polaroid m8 rev" style="--r:3deg"><img src="img/nonna-remera-900.webp" alt="Una nonna con la remera verde de El Pastificio" width="900" height="450" loading="lazy"><figcaption>la remera oficial</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO LLEGAR -->
+  <section class="sec llegar" id="llegar" aria-labelledby="llegar-t">
+    <div class="sec__in llegar__grid">
+      <div class="llegar__mapa rev">
+        <iframe title="Mapa: El Pastificio de Pablos, Fernández de Enciso 3963" src="https://www.google.com/maps?q=Fern%C3%A1ndez%20de%20Enciso%203963%2C%20Villa%20Devoto%2C%20CABA&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="llegar__info">
+        <p class="kicker rev">cómo llegar</p>
+        <h2 class="sec__t rev" id="llegar-t">Fernández de Enciso 3963</h2>
+        <p class="llegar__barrio rev">Villa Devoto, Buenos Aires</p>
+        <a class="google rev" href="https://www.google.com/maps/search/?api=1&amp;query=El%20Pastificio%20de%20Pablos%20Fern%C3%A1ndez%20de%20Enciso%203963" target="_blank" rel="noopener">
+          <span class="google__estrellas" aria-hidden="true">★★★★<span class="media">★</span></span>
+          <span><b>4,5/5</b> en Google · 291 reseñas</span>
+        </a>
+        <ul class="horarios rev" data-horarios>
+          <li data-dia="1"><span>Lunes</span><b>16:00 a 00:00 hs</b></li>
+          <li data-dia="2"><span>Martes</span><b>Cerrado</b></li>
+          <li data-dia="3"><span>Miércoles</span><b>10:00 a 00:00 hs</b></li>
+          <li data-dia="4"><span>Jueves</span><b>10:00 a 00:00 hs</b></li>
+          <li data-dia="5"><span>Viernes</span><b>10:00 a 00:00 hs</b></li>
+          <li data-dia="6"><span>Sábado</span><b>10:00 a 00:00 hs</b></li>
+          <li data-dia="0"><span>Domingo</span><b>10:00 a 00:00 hs</b></li>
+        </ul>
+        <div class="llegar__btns rev">
+          <a class="btn btn--verde btn--grande" href="https://elpastificiodepablos.meitre.com" target="_blank" rel="noopener">Reservá tu mesa</a>
+          <a class="btn btn--blanco btn--grande" href="https://wa.me/5491144782365" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="pie__in">
+    <div class="pie__marca">
+      <img src="img/logo.svg" alt="El Pastificio de Pablos" width="500" height="190" loading="lazy">
+      <p class="pie__frase">Una cantina italiana poco ortodoxa.</p>
+    </div>
+    <div class="pie__col">
+      <h3>Dónde</h3>
+      <p>Fernández de Enciso 3963<br>Villa Devoto, Buenos Aires</p>
+    </div>
+    <div class="pie__col">
+      <h3>Cuándo</h3>
+      <p>Miércoles a domingo de 10:00 a 00:00 hs<br>Lunes de 16:00 a 00:00 hs<br>Martes cerrado</p>
+    </div>
+    <div class="pie__col">
+      <h3>Por acá</h3>
+      <p><a href="carta/" target="_blank" rel="noopener">La carta (con QR)</a><br>
+      <a href="https://elpastificiodepablos.meitre.com" target="_blank" rel="noopener">Reservas</a><br>
+      <a href="https://wa.me/5491144782365" target="_blank" rel="noopener">WhatsApp 11 4478-2365</a><br>
+      <a href="https://www.instagram.com/elpastificiodepablos/" target="_blank" rel="noopener">@elpastificiodepablos</a></p>
+    </div>
+  </div>
+  <p class="pie__credito">Sitio desarrollado por <a href="https://alejomfernandez.com.ar" target="_blank" rel="noopener">Alejo Martín Fernández</a></p>
+</footer>
+
+<script type="module" src="js/main.js?v=1"></script>
+</body>
+</html>

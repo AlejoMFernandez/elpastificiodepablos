@@ -1,0 +1,1212 @@
+{
+ "id": "elpastificiodepablos",
+ "nombre": "El Pastificio de Pablos",
+ "pais": "AR",
+ "idioma": "es",
+ "modo": "demo",
+ "demoVersion": 1,
+ "whatsapp": "5491144782365",
+ "instagram": "elpastificiodepablos",
+ "prefijoPedido": "EP",
+ "supabase": {
+  "url": "",
+  "anonKey": ""
+ },
+ "direccion": "Fernández de Enciso 3963, Villa Devoto",
+ "marca": {
+  "logo": "img/logo.svg",
+  "logoPanel": "img/logo.svg",
+  "isotipo": "img/flor.svg",
+  "favicon": "img/flor.svg",
+  "colores": {
+   "fondo": "#f4ecd8",
+   "superficie": "#fbf6ea",
+   "texto": "#1a1a17",
+   "primario": "#1f5a34",
+   "acento": "#f7d64a",
+   "borde": "#a3967a",
+   "suave": "#5c5444"
+  },
+  "fuentes": {
+   "titulos": "'Instrument Serif', Georgia, serif",
+   "texto": "'Archivo', system-ui, sans-serif",
+   "googleFonts": ""
+  },
+  "estilo": {
+   "forma": "recta",
+   "sombra": "dura",
+   "borde": "2px",
+   "mayusculas": false
+  }
+ },
+ "modulos": {
+  "carta": true,
+  "carrito": false,
+  "reservas": true,
+  "admin": true,
+  "cartaQR": true
+ },
+ "horarios": {
+  "lun": [
+   [
+    "16:00",
+    "00:00"
+   ]
+  ],
+  "mar": [],
+  "mie": [
+   [
+    "10:00",
+    "00:00"
+   ]
+  ],
+  "jue": [
+   [
+    "10:00",
+    "00:00"
+   ]
+  ],
+  "vie": [
+   [
+    "10:00",
+    "00:00"
+   ]
+  ],
+  "sab": [
+   [
+    "10:00",
+    "00:00"
+   ]
+  ],
+  "dom": [
+   [
+    "10:00",
+    "00:00"
+   ]
+  ]
+ },
+ "reservas": {
+  "maxPersonas": 6,
+  "anticipacionMin": 120,
+  "diasAdelante": 90,
+  "capacidad": 20,
+  "extras": [
+   {
+    "id": "sin-hongos",
+    "label": "Menú sin hongos"
+   },
+   {
+    "id": "vegetariano",
+    "label": "Alguien es vegetariano"
+   }
+  ]
+ },
+ "eventosTipos": [
+  {
+   "id": "cata",
+   "nombre": "Cata de vinos"
+  },
+  {
+   "id": "popup",
+   "nombre": "Pop-up"
+  },
+  {
+   "id": "fiesta",
+   "nombre": "Fiesta"
+  }
+ ],
+ "eventos": [
+  {
+   "id": "cata-naturales-1112",
+   "tipo": "cata",
+   "nombre": "Cata de vinos naturales",
+   "fecha": "2026-11-12",
+   "hora": "21:00",
+   "cupo": 20,
+   "precio": 50000,
+   "descripcion": "Cuatro etiquetas de una bodega invitada, su sommelier contando cada una y un menú pensado para cada copa. En el subsuelo.",
+   "reserva": true
+  },
+  {
+   "id": "popup-burgas-1117",
+   "tipo": "popup",
+   "nombre": "Pop-up de burgas",
+   "fecha": "2026-11-17",
+   "hora": "20:00",
+   "cupo": 80,
+   "precio": null,
+   "descripcion": "La tana burger, la burga del Pasti, con djs y arte en vivo. Un martes que abrimos solo para esto.",
+   "reserva": false
+  },
+  {
+   "id": "cata-argentina-italia-1126",
+   "tipo": "cata",
+   "nombre": "Cata Argentina × Italia",
+   "fecha": "2026-11-26",
+   "hora": "21:00",
+   "cupo": 20,
+   "precio": 50000,
+   "descripcion": "Un viaje por suelos de Mendoza, la Patagonia y la Toscana con un menú de cena para acompañar.",
+   "reserva": true
+  }
+ ],
+ "destacados": [
+  {
+   "id": "mediodia",
+   "nombre": "Menú mediodía",
+   "ayuda": "Lo que se ve en la placa amarilla de la web (miércoles a viernes).",
+   "campos": [
+    {
+     "id": "plato",
+     "label": "Plato del día"
+    },
+    {
+     "id": "nota",
+     "label": "Aclaración corta"
+    }
+   ],
+   "valores": {
+    "plato": "Bife con papas fritas y huevo frito",
+    "nota": "Con postre y café, si te da el cuerpo."
+   }
+  },
+  {
+   "id": "merezco",
+   "nombre": "Me lo merezco",
+   "ayuda": "La pasta de la semana del Menú me lo merezco.",
+   "campos": [
+    {
+     "id": "pasta",
+     "label": "Pasta de la semana"
+    }
+   ],
+   "valores": {
+    "pasta": "Raviol ragú bianco"
+   }
+  }
+ ],
+ "cartaQR": {
+  "estilo": "marca",
+  "textos": {
+   "titulo": "Nuestra carta",
+   "sub": "Escaneá y mirá el álbum familiar"
+  }
+ },
+ "carta": {
+  "categorias": [
+   {
+    "id": "mediodia",
+    "nombre": "Menú mediodía",
+    "descripcion": "Miércoles a viernes al mediodía."
+   },
+   {
+    "id": "merezco",
+    "nombre": "Menú me lo merezco",
+    "descripcion": "Cenas de lunes, miércoles, jueves y domingos."
+   },
+   {
+    "id": "entradas",
+    "nombre": "Entradas"
+   },
+   {
+    "id": "ensaladas",
+    "nombre": "Ensaladas"
+   },
+   {
+    "id": "pastas",
+    "nombre": "Pastas y principales",
+    "descripcion": "Almuerzo de 12:00 a 16:00 hs y cena de 20:00 a 00:00 hs."
+   },
+   {
+    "id": "pizzas",
+    "nombre": "Pizzas",
+    "descripcion": "All day."
+   },
+   {
+    "id": "sandwiches",
+    "nombre": "Sándwiches",
+    "descripcion": "All day."
+   },
+   {
+    "id": "coolkids",
+    "nombre": "Menú cool kids"
+   },
+   {
+    "id": "postres",
+    "nombre": "Postres",
+    "descripcion": "All day."
+   },
+   {
+    "id": "desayunos",
+    "nombre": "Desayunos y meriendas",
+    "descripcion": "De 10:00 a 12:00 hs y de 16:00 a 20:00 hs."
+   },
+   {
+    "id": "pasteleria",
+    "nombre": "Pastelería",
+    "descripcion": "Mostrador all day."
+   },
+   {
+    "id": "tortas",
+    "nombre": "Tortas"
+   },
+   {
+    "id": "cafeteria",
+    "nombre": "Cafetería"
+   },
+   {
+    "id": "bebidas",
+    "nombre": "Bebidas y cócteles"
+   },
+   {
+    "id": "vinos",
+    "nombre": "Vinos",
+    "descripcion": "Por copa y por botella."
+   }
+  ],
+  "productos": [
+   {
+    "id": "menu-mediodia",
+    "categoria": "mediodia",
+    "nombre": "Menú mediodía",
+    "descripcion": "Plato del día, burga o César + bebida sin alcohol o copa de vino.",
+    "precio": null
+   },
+   {
+    "id": "menu-mediodia-postre",
+    "categoria": "mediodia",
+    "nombre": "Menú mediodía con postre y café",
+    "descripcion": "El mismo menú, con postre y café para cerrar.",
+    "precio": null
+   },
+   {
+    "id": "merezco-1",
+    "categoria": "merezco",
+    "nombre": "Pasta + agua libre",
+    "descripcion": "La pasta de la semana con agua libre.",
+    "precio": 24000
+   },
+   {
+    "id": "merezco-2",
+    "categoria": "merezco",
+    "nombre": "Pasta + agua libre + copa de vino",
+    "descripcion": "La pasta de la semana, agua libre y una copa.",
+    "precio": 28000
+   },
+   {
+    "id": "merezco-3",
+    "categoria": "merezco",
+    "nombre": "Pasta + agua libre + postre y café",
+    "descripcion": "La pasta de la semana, agua libre, postre y café.",
+    "precio": 28000
+   },
+   {
+    "id": "ajies-dominga",
+    "categoria": "entradas",
+    "nombre": "Ajíes de Dominga",
+    "descripcion": "Ajíes vinagre fritos + stracciatella + focaccia.",
+    "precio": 14000,
+    "etiquetas": [
+     "casa"
+    ]
+   },
+   {
+    "id": "arancinis",
+    "categoria": "entradas",
+    "nombre": "Arancinis",
+    "descripcion": "Dos croquetas en forma cónica de risotto de hongos y muzzarella + mermelada de guanciale.",
+    "precio": 16500
+   },
+   {
+    "id": "quesos",
+    "categoria": "entradas",
+    "nombre": "Plato de quesos",
+    "descripcion": "Quesos semiduros y blandos + morrón agridulce + focaccia.",
+    "precio": 23500
+   },
+   {
+    "id": "carpaccio",
+    "categoria": "entradas",
+    "nombre": "Carpaccio de lomo",
+    "descripcion": "Rúcula, alcaparras, crema de mostaza + papitas pay.",
+    "precio": 21000
+   },
+   {
+    "id": "vitel",
+    "categoria": "entradas",
+    "nombre": "Vitel toné",
+    "descripcion": "Peceto, salsa vitel + alcaparras.",
+    "precio": 19500
+   },
+   {
+    "id": "pan-manteca",
+    "categoria": "entradas",
+    "nombre": "Pan + manteca de ajos",
+    "descripcion": "Extra.",
+    "precio": 2000
+   },
+   {
+    "id": "papitas",
+    "categoria": "entradas",
+    "nombre": "Papitas caccio e pepe",
+    "descripcion": "Extra.",
+    "precio": 15000,
+    "foto": "img/papitas-640.webp"
+   },
+   {
+    "id": "ens-trucha",
+    "categoria": "ensaladas",
+    "nombre": "Ensalada de trucha y brócoli",
+    "descripcion": "Brócoli, trucha asada, pepino, alubias, parmesano + menta.",
+    "precio": 29500
+   },
+   {
+    "id": "ens-polenta",
+    "categoria": "ensaladas",
+    "nombre": "Ensalada de polenta",
+    "descripcion": "Polenta crocante, palta, cebolla morada, cherrys asados y pesto.",
+    "precio": 24000
+   },
+   {
+    "id": "cesar-pollo",
+    "categoria": "ensaladas",
+    "nombre": "Ensalada César con pollo",
+    "descripcion": "",
+    "precio": 24500
+   },
+   {
+    "id": "cesar-trucha",
+    "categoria": "ensaladas",
+    "nombre": "Ensalada César con trucha",
+    "descripcion": "",
+    "precio": 29500
+   },
+   {
+    "id": "tagliatelle-amalia",
+    "categoria": "pastas",
+    "nombre": "Tagliatelle de Amalia",
+    "descripcion": "Tagliatelle, pesto de albahaca, nueces y parmesano.",
+    "precio": 29500,
+    "etiquetas": [
+     "casa"
+    ],
+    "foto": "img/tagliatelle-amalia-480.webp"
+   },
+   {
+    "id": "spaghettis-pastrami",
+    "categoria": "pastas",
+    "nombre": "Spaghettis pastrami",
+    "descripcion": "Spaghettis a la crema de quesos, pastrami + parmesano.",
+    "precio": 31500
+   },
+   {
+    "id": "gnocchi-souffle",
+    "categoria": "pastas",
+    "nombre": "Gnocchi soufflé",
+    "descripcion": "De espinaca, cebollas caramelizadas + quesos gratinados.",
+    "precio": 29000,
+    "foto": "img/gnocchi-480.webp"
+   },
+   {
+    "id": "campanelle-carmelo",
+    "categoria": "pastas",
+    "nombre": "Campanelle de Carmelo",
+    "descripcion": "Pasta con borde ondulado, estofado de carne de roast beef + parmesano.",
+    "precio": 31500,
+    "etiquetas": [
+     "casa"
+    ]
+   },
+   {
+    "id": "fagottini",
+    "categoria": "pastas",
+    "nombre": "Fagottini de osobuco",
+    "descripcion": "Pasta rellena de osobuco braseado + reducción de sus jugos.",
+    "precio": 30000
+   },
+   {
+    "id": "rigatone-carbonara",
+    "categoria": "pastas",
+    "nombre": "Rigatone & carbonara",
+    "descripcion": "Pasta corta, yemas de huevo, parmesano, guanciale y pimienta negra.",
+    "precio": 29500
+   },
+   {
+    "id": "raviol-ragu",
+    "categoria": "pastas",
+    "nombre": "Raviol ragú bianco",
+    "descripcion": "Pasta rellena de ragú bianco de cerdo, salchicha en reducción de hongos + parmesano.",
+    "precio": 30000
+   },
+   {
+    "id": "canelones-humita",
+    "categoria": "pastas",
+    "nombre": "Canelones de humita",
+    "descripcion": "Pomodoro y bechamel.",
+    "precio": 28000
+   },
+   {
+    "id": "flat-iron",
+    "categoria": "pastas",
+    "nombre": "Flat iron steak",
+    "descripcion": "Corte de carne tierno en punto jugoso, su demiglace y puré de papas.",
+    "precio": 39000
+   },
+   {
+    "id": "osobuco-risotto",
+    "categoria": "pastas",
+    "nombre": "Osobuco & risotto crocante",
+    "descripcion": "Osobuco en larga cocción, risotto crocante y gremolata.",
+    "precio": 32000
+   },
+   {
+    "id": "milanesa-lomo",
+    "categoria": "pastas",
+    "nombre": "Milanesa de lomo",
+    "descripcion": "Napolitana con fior di latte, tomates asados y pesto. Viene con ensalada César o papas fritas caccio e pepe.",
+    "precio": 40000,
+    "foto": "img/milanesa-640.webp"
+   },
+   {
+    "id": "margarita",
+    "categoria": "pizzas",
+    "nombre": "Margarita",
+    "descripcion": "Fior di latte, tomates italianos y albahaca.",
+    "precio": 23000,
+    "foto": "img/margarita-640.webp"
+   },
+   {
+    "id": "mascarpone-pesto",
+    "categoria": "pizzas",
+    "nombre": "Mascarpone & pesto",
+    "descripcion": "Fior di latte, tomates italianos, mascarpone y pesto.",
+    "precio": 25000
+   },
+   {
+    "id": "cebolla-hot-honey",
+    "categoria": "pizzas",
+    "nombre": "Cebolla & hot honey",
+    "descripcion": "Fior di latte, tomates italianos, cebolla caramelizada + salsa picante de miel.",
+    "precio": 24000,
+    "etiquetas": [
+     "picante"
+    ]
+   },
+   {
+    "id": "focaccia-pollo",
+    "categoria": "sandwiches",
+    "nombre": "Focaccia pollo crocante",
+    "descripcion": "Pollo crispy, fior di latte, tomates secos + pesto.",
+    "precio": 24000
+   },
+   {
+    "id": "centeno-pastrami",
+    "categoria": "sandwiches",
+    "nombre": "Centeno & pastrami",
+    "descripcion": "Pan de centeno, pastrami, mostaza, pepinos encurtidos + coleslaw.",
+    "precio": 26000,
+    "foto": "img/pastrami-640.webp"
+   },
+   {
+    "id": "ciabatta-caprese",
+    "categoria": "sandwiches",
+    "nombre": "Ciabatta caprese",
+    "descripcion": "Mozzarella de búfala, salsa tres tomates, cherrys asados + pesto de pistachos.",
+    "precio": 23000
+   },
+   {
+    "id": "kids-spaghettis",
+    "categoria": "coolkids",
+    "nombre": "Spaghettis con crema & queso",
+    "descripcion": "Para los más chicos.",
+    "precio": 21000
+   },
+   {
+    "id": "kids-pizza",
+    "categoria": "coolkids",
+    "nombre": "Pizza con queso :)",
+    "descripcion": "Para los más chicos.",
+    "precio": 21000
+   },
+   {
+    "id": "sambayon",
+    "categoria": "postres",
+    "nombre": "Sambayón & merengue",
+    "descripcion": "Helado de sambayón, centro de frambuesa y merengue italiano.",
+    "precio": 18000,
+    "foto": "img/sambayon-640.webp"
+   },
+   {
+    "id": "cookie-helado",
+    "categoria": "postres",
+    "nombre": "Cookie & helado",
+    "descripcion": "Cookie de banana, chocolate semiamargo y dulce de leche + helado de vainilla.",
+    "precio": 18000
+   },
+   {
+    "id": "tiramisu-marcela",
+    "categoria": "postres",
+    "nombre": "El tiramisú de Marcela",
+    "descripcion": "Mascarpone, nuestras vainillas, café Lavazza y cacao semiamargo.",
+    "precio": 18000,
+    "etiquetas": [
+     "casa"
+    ]
+   },
+   {
+    "id": "copa-catalana",
+    "categoria": "postres",
+    "nombre": "Copa catalana",
+    "descripcion": "Crema de vainilla y azúcar bruleada.",
+    "precio": 14000
+   },
+   {
+    "id": "mousse",
+    "categoria": "postres",
+    "nombre": "Mousse de chocolate",
+    "descripcion": "Crema inglesa + sal.",
+    "precio": 15500,
+    "foto": "img/mousse-480.webp"
+   },
+   {
+    "id": "cornetto-queso",
+    "categoria": "desayunos",
+    "nombre": "Cornetto con queso crema",
+    "descripcion": "Factura italiana similar al croissant con mermelada de frutilla casera y queso crema.",
+    "precio": 13900
+   },
+   {
+    "id": "yogur",
+    "categoria": "desayunos",
+    "nombre": "Yogur griego",
+    "descripcion": "Granola, miel + frutas frescas.",
+    "precio": 14700
+   },
+   {
+    "id": "tostada-palta",
+    "categoria": "desayunos",
+    "nombre": "Tostada & palta",
+    "descripcion": "Pan de centeno, palta, huevo poché, queso feta.",
+    "precio": 16600
+   },
+   {
+    "id": "omelette",
+    "categoria": "desayunos",
+    "nombre": "Omelette",
+    "descripcion": "De queso trufado, manteca batida y pancito.",
+    "precio": 19500
+   },
+   {
+    "id": "tostado",
+    "categoria": "desayunos",
+    "nombre": "Tostado J&Q",
+    "descripcion": "Tostado en pan brioche de queso y jamón.",
+    "precio": 15000
+   },
+   {
+    "id": "toston-trucha",
+    "categoria": "desayunos",
+    "nombre": "Tostón & trucha",
+    "descripcion": "Tostón de mascarpone, verdes, trucha asada y limón rallado.",
+    "precio": 24000
+   },
+   {
+    "id": "fosforito",
+    "categoria": "desayunos",
+    "nombre": "Fosforito",
+    "descripcion": "Con lomito y queso.",
+    "precio": 12900
+   },
+   {
+    "id": "french-toast",
+    "categoria": "desayunos",
+    "nombre": "French toast",
+    "descripcion": "Con crema inglesa y frutas frescas, o con tiramisú y salsa de chocolate.",
+    "precio": 15500
+   },
+   {
+    "id": "grilled-cheese",
+    "categoria": "desayunos",
+    "nombre": "Grilled cheese",
+    "descripcion": "Sándwich de queso moro, muzzarella, cebollas caramelizadas + sopa de tomates.",
+    "precio": 19500
+   },
+   {
+    "id": "cornetto-prensado",
+    "categoria": "desayunos",
+    "nombre": "Cornetto prensado",
+    "descripcion": "Factura italiana similar al croissant, con queso y jamón.",
+    "precio": 8000
+   },
+   {
+    "id": "sfogliatella",
+    "categoria": "desayunos",
+    "nombre": "Sfogliatella & nutella",
+    "descripcion": "Una sfogliatella crocante y tibia, rellena de nutella y salsa de chocolate.",
+    "precio": 10000
+   },
+   {
+    "id": "shot-cafe",
+    "categoria": "desayunos",
+    "nombre": "Shot de café",
+    "descripcion": "Extra.",
+    "precio": 3000
+   },
+   {
+    "id": "leche-vegetal",
+    "categoria": "desayunos",
+    "nombre": "Leche vegetal de almendras",
+    "descripcion": "Extra. Leche deslactosada sin costo adicional.",
+    "precio": 1000
+   },
+   {
+    "id": "medialuna",
+    "categoria": "pasteleria",
+    "nombre": "Medialuna",
+    "descripcion": "Artesanales de manteca.",
+    "precio": 3000
+   },
+   {
+    "id": "cornetto",
+    "categoria": "pasteleria",
+    "nombre": "Cornetto italiano",
+    "descripcion": "Factura clásica italiana similar a una croissant.",
+    "precio": 3500
+   },
+   {
+    "id": "zeppole",
+    "categoria": "pasteleria",
+    "nombre": "Zeppole",
+    "descripcion": "Dulce típico napolitano horneado con mousse de chocolate o pastelera.",
+    "precio": 6500
+   },
+   {
+    "id": "bombolini",
+    "categoria": "pasteleria",
+    "nombre": "Bombolini",
+    "descripcion": "Masa frita italiana en forma de bomba rellena de choco blanco y pastelera bruleada.",
+    "precio": 4500
+   },
+   {
+    "id": "cannestrelli",
+    "categoria": "pasteleria",
+    "nombre": "Cannestrelli",
+    "descripcion": "Galletas italianas en forma de flor, tipo alfajor relleno de nutella.",
+    "precio": 5000
+   },
+   {
+    "id": "pasticciotto",
+    "categoria": "pasteleria",
+    "nombre": "Pasticciotto",
+    "descripcion": "Pastelito tradicional italiano relleno de pastelera.",
+    "precio": 4500
+   },
+   {
+    "id": "cookie-pistacho",
+    "categoria": "pasteleria",
+    "nombre": "Cookie pistacho",
+    "descripcion": "Pasta de pistachos, pistachos, chocolate con leche y chocolate blanco.",
+    "precio": 8500
+   },
+   {
+    "id": "cookie-banana",
+    "categoria": "pasteleria",
+    "nombre": "Cookie banana",
+    "descripcion": "Banana, chocolate semiamargo y relleno de dulce de leche.",
+    "precio": 8500
+   },
+   {
+    "id": "choco-naranja",
+    "categoria": "tortas",
+    "nombre": "Choco & naranja",
+    "descripcion": "Torta de bizcochuelo de naranja y ganache de chocolate.",
+    "precio": 10000
+   },
+   {
+    "id": "lemon-pie",
+    "categoria": "tortas",
+    "nombre": "Bizcocho lemon pie",
+    "descripcion": "Bizcochuelo de limón, curd de limón y merengue italiano.",
+    "precio": 10000
+   },
+   {
+    "id": "bruce-pistacho",
+    "categoria": "tortas",
+    "nombre": "Bruce pistacho",
+    "descripcion": "Bizcochuelo de chocolate, ganache de chocolate y pasta de pistachos.",
+    "precio": 13000
+   },
+   {
+    "id": "vasca-pistachos",
+    "categoria": "tortas",
+    "nombre": "Vasca & pistachos",
+    "descripcion": "Vasca clásica, pasta de pistachos y pistachos.",
+    "precio": 8000
+   },
+   {
+    "id": "key-lime",
+    "categoria": "tortas",
+    "nombre": "Key lime pie",
+    "descripcion": "Base de galletitas, crema de lima y crema chantilly.",
+    "precio": 9900
+   },
+   {
+    "id": "frambuesa-vainilla",
+    "categoria": "tortas",
+    "nombre": "Frambuesa & vainilla",
+    "descripcion": "Bizcochuelo de vainilla, crema de frambuesas, pot de crème y frosting.",
+    "precio": 13000
+   },
+   {
+    "id": "espresso",
+    "categoria": "cafeteria",
+    "nombre": "Espresso",
+    "descripcion": "20 ml.",
+    "precio": 4000
+   },
+   {
+    "id": "macchiato",
+    "categoria": "cafeteria",
+    "nombre": "Espresso macchiato",
+    "descripcion": "25 ml.",
+    "precio": 4200
+   },
+   {
+    "id": "lungo",
+    "categoria": "cafeteria",
+    "nombre": "Lungo en pocillo",
+    "descripcion": "45 ml.",
+    "precio": 4000
+   },
+   {
+    "id": "americano",
+    "categoria": "cafeteria",
+    "nombre": "Americano",
+    "descripcion": "120 ml.",
+    "precio": 5500
+   },
+   {
+    "id": "doppio",
+    "categoria": "cafeteria",
+    "nombre": "Doppio",
+    "descripcion": "40 ml.",
+    "precio": 6000
+   },
+   {
+    "id": "flat-white",
+    "categoria": "cafeteria",
+    "nombre": "Flat white",
+    "descripcion": "140 ml.",
+    "precio": 4500
+   },
+   {
+    "id": "latte",
+    "categoria": "cafeteria",
+    "nombre": "Latte",
+    "descripcion": "140 ml.",
+    "precio": 5500
+   },
+   {
+    "id": "vainilla-latte",
+    "categoria": "cafeteria",
+    "nombre": "Vainilla latte",
+    "descripcion": "140 ml.",
+    "precio": 5800
+   },
+   {
+    "id": "capuccino",
+    "categoria": "cafeteria",
+    "nombre": "Capuccino",
+    "descripcion": "140 ml.",
+    "precio": 6000
+   },
+   {
+    "id": "mocaccino",
+    "categoria": "cafeteria",
+    "nombre": "Mocaccino",
+    "descripcion": "140 ml.",
+    "precio": 6000
+   },
+   {
+    "id": "iced-americano",
+    "categoria": "cafeteria",
+    "nombre": "Iced americano",
+    "descripcion": "140 ml, chantilly y cacao.",
+    "precio": 6500
+   },
+   {
+    "id": "iced-latte",
+    "categoria": "cafeteria",
+    "nombre": "Iced latte",
+    "descripcion": "140 ml.",
+    "precio": 5500
+   },
+   {
+    "id": "iced-vainilla",
+    "categoria": "cafeteria",
+    "nombre": "Iced vainilla latte",
+    "descripcion": "140 ml.",
+    "precio": 5800
+   },
+   {
+    "id": "iced-doppio-tonic",
+    "categoria": "cafeteria",
+    "nombre": "Iced doppio tonic",
+    "descripcion": "220 ml.",
+    "precio": 6500
+   },
+   {
+    "id": "iced-matcha",
+    "categoria": "cafeteria",
+    "nombre": "Iced matcha hibiscus",
+    "descripcion": "220 ml.",
+    "precio": 8000
+   },
+   {
+    "id": "matcha-latte",
+    "categoria": "cafeteria",
+    "nombre": "Matcha latte",
+    "descripcion": "200 ml. Matcha ceremonial, cúrcuma, canela y hongos adaptógenos.",
+    "precio": 8000
+   },
+   {
+    "id": "golden-latte",
+    "categoria": "cafeteria",
+    "nombre": "Golden latte",
+    "descripcion": "200 ml. Cúrcuma, canela, jengibre, pimienta negra, cardamomo, nuez moscada, clavo de olor y hongos adaptógenos.",
+    "precio": 8000
+   },
+   {
+    "id": "cacao-chai",
+    "categoria": "cafeteria",
+    "nombre": "Cacao chai fungi latte",
+    "descripcion": "200 ml. Cacao cremoso con especias chai y hongos adaptógenos.",
+    "precio": 8000
+   },
+   {
+    "id": "chocolate",
+    "categoria": "cafeteria",
+    "nombre": "Chocolate caliente",
+    "descripcion": "200 ml. Chocolate semiamargo.",
+    "precio": 8000
+   },
+   {
+    "id": "te-manzanilla",
+    "categoria": "cafeteria",
+    "nombre": "Manzanilla cítrica",
+    "descripcion": "500 ml. Manzanilla, rosa mosqueta, cascaritas de naranja, hierba limón y cedrón.",
+    "precio": 6200
+   },
+   {
+    "id": "te-coco-chai",
+    "categoria": "cafeteria",
+    "nombre": "Coco chai",
+    "descripcion": "500 ml. Té negro, cacao, coco en escamas, canela, jengibre, pimienta negra, clavo de olor y anís estrellado.",
+    "precio": 6200
+   },
+   {
+    "id": "te-boldo",
+    "categoria": "cafeteria",
+    "nombre": "Boldo",
+    "descripcion": "500 ml. Hojas de boldo.",
+    "precio": 6200
+   },
+   {
+    "id": "pellegrino",
+    "categoria": "bebidas",
+    "nombre": "Agua San Pellegrino",
+    "descripcion": "",
+    "precio": 9500
+   },
+   {
+    "id": "acqua-panna",
+    "categoria": "bebidas",
+    "nombre": "Acqua Panna",
+    "descripcion": "",
+    "precio": 8900
+   },
+   {
+    "id": "aqa",
+    "categoria": "bebidas",
+    "nombre": "AQA agua libre",
+    "descripcion": "",
+    "precio": 4000
+   },
+   {
+    "id": "morgade",
+    "categoria": "bebidas",
+    "nombre": "Agua Morgade",
+    "descripcion": "",
+    "precio": 4000
+   },
+   {
+    "id": "gaseosas",
+    "categoria": "bebidas",
+    "nombre": "Gaseosas línea Coca",
+    "descripcion": "",
+    "precio": 4000
+   },
+   {
+    "id": "limonadas",
+    "categoria": "bebidas",
+    "nombre": "Limonadas",
+    "descripcion": "Menta & jengibre, hibiscus, manzanilla o pomelada.",
+    "precio": 5500
+   },
+   {
+    "id": "jugo-naranja",
+    "categoria": "bebidas",
+    "nombre": "Jugo de naranja",
+    "descripcion": "",
+    "precio": 5500
+   },
+   {
+    "id": "pellegrino-gaseosas",
+    "categoria": "bebidas",
+    "nombre": "San Pellegrino gaseosas",
+    "descripcion": "Pompelmo, limonata o aranciata rossa.",
+    "precio": 7000
+   },
+   {
+    "id": "peroni",
+    "categoria": "bebidas",
+    "nombre": "Peroni",
+    "descripcion": "Cerveza.",
+    "precio": 8800
+   },
+   {
+    "id": "minga-amber",
+    "categoria": "bebidas",
+    "nombre": "Minga amber lager",
+    "descripcion": "Cerveza.",
+    "precio": 6200
+   },
+   {
+    "id": "minga-ipa",
+    "categoria": "bebidas",
+    "nombre": "Minga American IPA",
+    "descripcion": "Cerveza.",
+    "precio": 6200
+   },
+   {
+    "id": "minga-stout",
+    "categoria": "bebidas",
+    "nombre": "Minga American stout",
+    "descripcion": "Cerveza.",
+    "precio": 6200
+   },
+   {
+    "id": "negroni",
+    "categoria": "bebidas",
+    "nombre": "Negroni",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "aperol",
+    "categoria": "bebidas",
+    "nombre": "Aperol spritz",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "campari",
+    "categoria": "bebidas",
+    "nombre": "Campari orange",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "gin-tonic",
+    "categoria": "bebidas",
+    "nombre": "Gin tonic",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "fernet",
+    "categoria": "bebidas",
+    "nombre": "Fernet Branca",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "vermut",
+    "categoria": "bebidas",
+    "nombre": "Vermut rosso",
+    "descripcion": "Cóctel.",
+    "precio": 11500
+   },
+   {
+    "id": "copa-blanco",
+    "categoria": "vinos",
+    "nombre": "Copa de blanco",
+    "descripcion": "Por copa.",
+    "precio": 9000
+   },
+   {
+    "id": "copa-tinto",
+    "categoria": "vinos",
+    "nombre": "Copa de tinto",
+    "descripcion": "Por copa.",
+    "precio": 9000
+   },
+   {
+    "id": "chardonnay-animal",
+    "categoria": "vinos",
+    "nombre": "Chardonnay · Animal Organic",
+    "descripcion": "Blanco.",
+    "precio": 30000
+   },
+   {
+    "id": "semillon-mara",
+    "categoria": "vinos",
+    "nombre": "Semillón · Mara",
+    "descripcion": "Blanco.",
+    "precio": 40000
+   },
+   {
+    "id": "chenin-guardianes",
+    "categoria": "vinos",
+    "nombre": "Chenin · Guardianes",
+    "descripcion": "Blanco.",
+    "precio": 48000
+   },
+   {
+    "id": "rosado-jardin",
+    "categoria": "vinos",
+    "nombre": "Rosado Malbec · Jardín Enchanté",
+    "descripcion": "Rosado.",
+    "precio": 30000
+   },
+   {
+    "id": "rosado-pielihueso",
+    "categoria": "vinos",
+    "nombre": "Rosado Primero · Pielihueso",
+    "descripcion": "Rosado.",
+    "precio": 46000
+   },
+   {
+    "id": "rose-ruca",
+    "categoria": "vinos",
+    "nombre": "Rosé de corte · Cap 2 · Ruca Malén",
+    "descripcion": "Rosado.",
+    "precio": 30000
+   },
+   {
+    "id": "naranjo-arcovinis",
+    "categoria": "vinos",
+    "nombre": "Naranjo de sauvignon blanc · Arcovinis",
+    "descripcion": "Naranjo.",
+    "precio": 35000
+   },
+   {
+    "id": "orange-imaginacion",
+    "categoria": "vinos",
+    "nombre": "Orange de Noir · La Imaginación al Poder",
+    "descripcion": "Naranjo.",
+    "precio": 50000
+   },
+   {
+    "id": "malbec-animal",
+    "categoria": "vinos",
+    "nombre": "Malbec · Animal Organic",
+    "descripcion": "Tinto.",
+    "precio": 30000
+   },
+   {
+    "id": "blend-animal",
+    "categoria": "vinos",
+    "nombre": "Blend de tintas · Animal Organic",
+    "descripcion": "Tinto.",
+    "precio": 30000
+   },
+   {
+    "id": "cabfranc-mara",
+    "categoria": "vinos",
+    "nombre": "Cabernet franc · Mara",
+    "descripcion": "Tinto.",
+    "precio": 40000
+   },
+   {
+    "id": "bonarda-guardianes",
+    "categoria": "vinos",
+    "nombre": "Bonarda · Guardianes",
+    "descripcion": "Tinto.",
+    "precio": 48000
+   },
+   {
+    "id": "sangiovese-escorihuela",
+    "categoria": "vinos",
+    "nombre": "Sangiovese · Escorihuela Gascón",
+    "descripcion": "Tinto.",
+    "precio": 26000
+   },
+   {
+    "id": "garnacha-ruca",
+    "categoria": "vinos",
+    "nombre": "Garnacha · Cap 2 · Ruca Malén",
+    "descripcion": "Tinto.",
+    "precio": 30000
+   },
+   {
+    "id": "merlot-imaginacion",
+    "categoria": "vinos",
+    "nombre": "Power Merlot · La Imaginación al Poder",
+    "descripcion": "Tinto.",
+    "precio": 48000
+   },
+   {
+    "id": "barbera-stella",
+    "categoria": "vinos",
+    "nombre": "Barbera · Stella Crinita",
+    "descripcion": "Tinto.",
+    "precio": 38000
+   },
+   {
+    "id": "petit-stella",
+    "categoria": "vinos",
+    "nombre": "Petit verdot · Stella Crinita",
+    "descripcion": "Tinto.",
+    "precio": 48000
+   },
+   {
+    "id": "gallo-pielihueso",
+    "categoria": "vinos",
+    "nombre": "El Gallo Clara · Pielihueso",
+    "descripcion": "Tinto.",
+    "precio": 45000
+   },
+   {
+    "id": "extrabrut-animal",
+    "categoria": "vinos",
+    "nombre": "Extra brut · Animal Organic",
+    "descripcion": "Burbujas.",
+    "precio": 28000
+   },
+   {
+    "id": "petnat-stella",
+    "categoria": "vinos",
+    "nombre": "Pet nat Viognier Omaggio · Stella Crinita",
+    "descripcion": "Burbujas.",
+    "precio": 30000
+   },
+   {
+    "id": "petnat-simbiosis",
+    "categoria": "vinos",
+    "nombre": "Pet nat Syrah · Simbiosis",
+    "descripcion": "Burbujas.",
+    "precio": 30000
+   }
+  ]
+ },
+ "textos": {
+  "reservarMesa": "Guardame un lugar",
+  "confirmarReserva": "Guardame el lugar",
+  "reservaLista": "¡Aprobado por la nonna!",
+  "reservaListaSub": "{personas} · {dia} a las {hora}. Te escribimos por WhatsApp para confirmar.",
+  "servicio": "Evento",
+  "waReserva": "Hola Pasti! Me anoté desde la web: {servicio}, {dia} a las {hora}, {personas}. A nombre de {nombre}.",
+  "reservas": "Inscriptos"
+ }
+}
